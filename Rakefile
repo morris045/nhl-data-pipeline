@@ -39,3 +39,8 @@ end
 task :games do
   ruby 'bin/cli.rb'
 end
+
+# cli to fetch games
+task :test do
+  sh 'rspec'
+end

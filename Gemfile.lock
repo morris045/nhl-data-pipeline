@@ -28,6 +28,7 @@ GEM
     cgi (0.3.6)
     concurrent-ruby (1.2.2)
     crass (1.0.6)
+    diff-lcs (1.5.0)
     dotenv (2.8.1)
     erb (4.0.2)
       cgi (>= 0.3.3)
@@ -67,6 +68,19 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.1)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
     rufus-scheduler (3.8.2)
       fugit (~> 1.1, >= 1.1.6)
     standalone_migrations (7.1.0)
@@ -92,6 +106,7 @@ DEPENDENCIES
   openssl (~> 3.1)
   pg
   rake
+  rspec
   rufus-scheduler (~> 3.2)
   standalone_migrations
   uri (~> 0.12.1)

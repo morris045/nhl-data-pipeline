@@ -13,3 +13,7 @@ gem 'rufus-scheduler', '~> 3.2'
 gem 'standalone_migrations' # providing migrations support
 gem 'uri', '~> 0.12.1'
 gem 'yaml'
+
+group :development, :test do
+  gem 'rspec'
+end
